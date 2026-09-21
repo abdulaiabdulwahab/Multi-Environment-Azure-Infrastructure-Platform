@@ -1,0 +1,91 @@
+# ==========================================
+# Terraform
+# ==========================================
+
+# Terraform working directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+tfplan
+*.plan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform variable files
+# These may contain subscription IDs,
+# passwords, secrets, or environment-specific values
+*.tfvars
+*.tfvars.json
+
+# Terraform backend configuration files
+# Useful if backend config contains environment-specific
+# or sensitive information
+*.tfbackend
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+
+# ==========================================
+# Azure / Credentials
+# ==========================================
+
+# Azure CLI local configuration
+.azure/
+
+# Environment files that may contain credentials
+.env
+.env.*
+*.env
+
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+
+# VS Code
+.vscode/
+
+# JetBrains / IntelliJ
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+
+# ==========================================
+# Operating System
+# ==========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ==========================================
+# Temporary / Backup Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
